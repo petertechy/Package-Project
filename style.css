@@ -86,9 +86,11 @@
     border: 0;
     color: white;
     font-size: 12px;
-    padding: 15px;
+    font-weight: 600;
+    padding: 15px 36px;
     border-radius: 9px;
     margin-top: 40px;
+    box-shadow: 1px 1px 4px 5px lightgrey;
 }
 
 .sbtn-1 {
@@ -131,13 +133,18 @@
         width: 120px;
     }
     .stitle{
-        font-size: 18px;
+        font-size: 22px;
     }
     .spackage-plan{
         font-size: 12px;
     }
     .sbtn{
         margin-top: 70px;
+    }
+    .sbtn:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
     }
 }
     @media only screen and (max-width: 800px){
